@@ -29,9 +29,10 @@ Quantize the **Exaone 4.0 1.2B** baseline model (available on HuggingFace) while
 Aggressively quantizing a model without first establishing a stable baseline leads to compounded errors that are hard to debug under submission limits. A better strategy is to start with conservative methods (FP16) and incrementally push further — not the other way around. I also gained hands-on experience with LLM compression tradeoffs: size reduction does not come free, and hardware constraints directly shape what approaches are viable.
 
 ## Environment
-- GPU: RTX 2060 Mobile
+- GPU: RTX 2060 Mobile 6GB VRAM
 - OS: Windows (attempted Ubuntu/vLLM for local testing, encountered compatibility issues)
 - Submission limit: 3 per day
+- Claude was utilized for code review
 
 ## Repository Structure
 - `exaone_baseline/` — Baseline model provided by LG (Exaone 4.0 1.2B)
