@@ -1,7 +1,7 @@
-# 2026 LG Aimers – Exaone Model Quantization
+# LG AI Research – Exaone Model Quantization
 
 ## Overview
-LG Aimers is an AI boot camp hosted by LG centered around their in-house LLM, **Exaone (Expert AI for Everyone)**. The program emphasizes not just model performance, but efficiency — making capable AI accessible on low-resource hardware. The program concluded with an online hackathon in February 2026.
+Participated in a program led by LG centered around their in-house LLM, **Exaone (Expert AI for Everyone)**. The program emphasizes not just model performance, but efficiency — making capable AI accessible on low-resource hardware. 
 
 ## Objective
 Quantize the **Exaone 4.0 1.2B** baseline model (available on HuggingFace) while maintaining acceptable performance. Submissions were scored based on the ratio of performance to model size relative to the baseline. A score of **0.5 or above** was required to complete the program.
